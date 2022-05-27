@@ -43,11 +43,13 @@ And then run:
 
 ```gem install rails```
 
-```gem install pg -v ‘1.2.3’ -- --with-cflags=“-Wno-error=implicit-function-declaration”```
-
 * Configuration
 
 ```bundle install```
+
+```brew install yarn```
+
+```yarn add bootstrap```
 
 * Database creation
 
