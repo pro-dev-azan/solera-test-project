@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.3'
 
+gem 'devise'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.6'
 # Use postgresql as the database for Active Record
@@ -31,6 +33,13 @@ gem 'bootsnap', '>= 1.4.4', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-rails'
+  gem 'shoulda-callback-matchers'
+  gem 'rails-controller-testing'
+  gem 'shoulda-matchers', '~> 5.0'
+  gem 'factory_bot_rails'
+  gem 'simplecov'
+  gem 'faker'
 end
 
 group :development do
