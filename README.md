@@ -64,8 +64,7 @@ You're ready to localize your app:
 
 ```rails server```
 
-Run ```rails c``` then ```User.create(email: 'example@abcd.com', password: '123123')```
+Run ```rails c``` then ```user = User.create(email: 'example@abcd.com', password: '123123')```
+Also, add some balance in user's account ```user.back_account.update(balance: 1000)```
 
 Using above creds signin on ```localhost:3000``` 
-
-
